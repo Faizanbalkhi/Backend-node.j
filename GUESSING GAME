@@ -1,0 +1,8 @@
+let correctNumber = 7;
+let guess;
+
+do {
+    guess = Number(prompt("Guess the number:"));
+} while (guess !== correctNumber);
+
+console.log("Correct! You guessed the number.");

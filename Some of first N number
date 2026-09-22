@@ -1,0 +1,10 @@
+let N = 5;
+let i = 1;
+let sum = 0;
+
+while (i <= N) {
+    sum = sum + i;
+    i++;
+}
+
+console.log("Sum =", sum);
