@@ -1,0 +1,28 @@
+let choice = 2;
+let balance = 5000;
+let amount = 1000;
+
+switch (choice) {
+    case 1:
+        console.log("Your balance is: " + balance);
+        break;
+
+    case 2:
+        balance = balance + amount;
+        console.log("Amount deposited: " + amount);
+        console.log("Your new balance is: " + balance);
+        break;
+
+    case 3:
+        balance = balance - amount;
+        console.log("Amount withdrawn: " + amount);
+        console.log("Your new balance is: " + balance);
+        break;
+
+    case 4:
+        console.log("Thank you. Goodbye!");
+        break;
+
+    default:
+        console.log("Invalid choice");
+}
