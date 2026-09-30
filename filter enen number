@@ -1,0 +1,13 @@
+// Q5. Filter even numbers
+
+let numbers = [10, 15, 20, 25, 30, 35, 40];
+
+let evenNumbers = [];
+
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] % 2 === 0) {
+    evenNumbers.push(numbers[i]);
+  }
+}
+
+console.log("Even numbers:", evenNumbers);

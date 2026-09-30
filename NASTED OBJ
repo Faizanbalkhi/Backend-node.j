@@ -1,0 +1,15 @@
+// Q4. Nested objects
+
+let student = {
+  name: "Faizan",
+  age: 42,
+
+  address: {
+    city: "Karachi",
+    country: "Pakistan"
+  }
+};
+
+console.log("Name:", student.name);
+console.log("City:", student.address.city);
+console.log("Country:", student.address.country);

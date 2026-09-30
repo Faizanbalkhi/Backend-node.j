@@ -1,0 +1,13 @@
+// Q5. Convert object keys and values into separate arrays
+
+let student = {
+  name: "Faizan",
+  age: 40,
+  grade: "A"
+};
+
+let keys = Object.keys(student);
+let values = Object.values(student);
+
+console.log("Keys:", keys);
+console.log("Values:", values);
