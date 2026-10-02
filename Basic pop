@@ -1,0 +1,6 @@
+const tasks = ['Login', 'Help Desk', 'Logout'];
+
+const removedTask = tasks.pop();
+
+console.log(removedTask); // 'Logout'
+console.log(tasks);       // ['Login', 'Help Desk']

@@ -1,0 +1,4 @@
+const topics = ['HTML', 'CSS', 'JS', 'Python', 'Node'];
+const selected = topics.slice(1, 4);
+console.log(selected); // ['CSS', 'JS', 'Python']
+console.log(topics);   // ['HTML', 'CSS', 'JS', 'Python', 'Node'] (unchanged)

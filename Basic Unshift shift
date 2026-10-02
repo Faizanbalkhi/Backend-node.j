@@ -1,0 +1,8 @@
+const queue = ['Employee B', 'Employee C'];
+
+queue.unshift('Employee A');
+console.log(queue); // ['Employee A', 'Employee B', 'Employee C']
+
+const served = queue.shift();
+console.log(served); // 'Employee A'
+console.log(queue);  // ['Employee B', 'Employee C']

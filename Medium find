@@ -1,0 +1,10 @@
+const users = [
+  { id: 101, name: 'Ali' },
+  { id: 102, name: 'Sara' },
+  { id: 103, name: 'Usman' },
+  { id: 104, name: 'Hina' }
+];
+
+const user = users.find(u => u.id === 103);
+
+console.log(user); // { id: 103, name: 'Usman' }

@@ -1,0 +1,9 @@
+const registeredEmails = [
+  'Faizan@gmail.com',
+  'student@gmail.com',
+  'teacher@gmail.com'
+];
+
+const isRegistered = registeredEmails.includes('student@gmail.com');
+
+console.log(isRegistered); // true

@@ -1,0 +1,5 @@
+const cities = ['Karachi', 'Lahore', 'Islamabad', 'Quetta'];
+const firstIndex = cities.indexOf('Islamabad');
+console.log(firstIndex); // 0
+const missing = cities.indexOf('Peshawar');
+console.log(missing); // -1

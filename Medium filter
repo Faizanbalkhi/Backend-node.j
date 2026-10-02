@@ -1,0 +1,6 @@
+const marks = [35, 76, 49, 90, 50, 20];
+
+const passing = marks.filter(mark => mark >= 50);
+
+console.log(passing); // [76, 90, 50]
+console.log(marks);   // [35, 76, 49, 90, 50, 20] (unchanged)
